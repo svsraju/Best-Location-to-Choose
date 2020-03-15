@@ -74,3 +74,14 @@ The dataframe created was :
 I have added the cluster labels to the data before merging it with actual data, Again i have used Folium to visualize the clustered data.
 ![image](https://user-images.githubusercontent.com/46058709/76486753-52c17d80-63ee-11ea-8cf3-b8f101d22ce2.png)
 
+Now we have our clusters ready. And For our bussiness if we want to check which bussiness to start in 'Rosedale' Neighbourhood, but we want to check which venue to start, the following dataframe gives us an idea of most common venues in our desired neighbourhood.
+
+![image](https://user-images.githubusercontent.com/46058709/76712406-9a921e80-66e6-11ea-963a-5110da6ceee2.png)
+
+We can clearly see the most common venues in the given Neighborhood, based on these results we can plan on which venue is best to start a new bussiness.
+
+We can also look into similar Neighbourhoods which has same characterstics of the above checked neighbourhood, since the neighbood of our choice belongs to cluster 0, we can check the other neighbourhoods belonging to the same cluster, which gives us a better idea about other neighbourhoods befor making the final decision.
+
+![image](https://user-images.githubusercontent.com/46058709/76712415-b3023900-66e6-11ea-8a74-e82078540917.png)
+
+NOTE: In this project I have considered the way we can look at the venues in the given neighbourhood before setting up a venue of our own. It should be noted that they are many other factors which should be consired before making a final decision.

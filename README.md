@@ -9,8 +9,11 @@
 1. [Project Motivation](#motivation)
 2. [Installations](#libraries)
 3. [Exploring and Clustering the neighborhoods in Toronto.](#toronto)
+   
    3.1 [Data Collection](#collection)
+   
    3.2 [Cleaning the data](#Cleaning)
+   
    3.3 [Visualizing the neighbourhoods](#Visualizing)
 4. [Exploring the Neighbourhood](#Exploring)
 5. [Clustering the Neighborhoods](#Clustering)
@@ -56,7 +59,7 @@
 - With a list of Neighborhoods and their Latitudes and Longitudes, I have used Foursquare API to get venue information and I have selected the Venue category for further analysis. I have used K-mean Clustering (Machine Learning Technique) to determine suitable locations for our new business as well as Folium library to locate them in the Map. The processing of data will help us identify which neighborhoods are densed with which venue, therefore, indicating a suitable location to open a new one
 
 
-### 3.2 Cleaning the data<a name="cleaning"></a>
+### 3.2 Cleaning the data<a name="Cleaning"></a>
 - I have Removed the rows  with a borough that is "Not assigned".
 
 - It can be noticed that more than one neighborhood can exist in one postal code area. For example, in the table on the Wikipedia page, you will notice that M5A is listed twice and has two neighborhoods: Harbourfront and Regent Park. These two rows are combined into one row with the neighborhoods separated with a comma 
